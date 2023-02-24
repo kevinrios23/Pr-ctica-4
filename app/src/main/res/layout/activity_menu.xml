@@ -53,7 +53,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/button_especialidades"/>
         <Button
             android:text="@string/sopas"
             android:textColor="@color/white"
@@ -63,7 +64,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"/>
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/button_sopas"/>
         <Button
             android:text="@string/drinks"
             android:textColor="@color/white"
@@ -73,7 +75,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"/>
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/button_drinks"/>
 
         <Button
             android:text="@string/tortas"
@@ -84,7 +87,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"/>
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/button_tortas"/>
         <Button
             android:text="@string/combinations"
             android:textColor="@color/white"
@@ -94,7 +98,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings"/>
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/button_combinaciones"/>
 
 
     </GridLayout>
